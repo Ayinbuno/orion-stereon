@@ -1,0 +1,81 @@
+/*******The card container*********/
+.card{
+display:grid;
+background-color:hsl(30, 38%, 92%);
+grid-template-areas:"area1 area2";
+justify-content: center;
+height: 430px;
+padding-top: 75px;
+}
+/*******the container of product image******/
+.img_card{
+grid-area: area1;
+height: 400px;
+width: 250px;
+border-radius: 20px 0 0 20px;
+}
+/*********styling the product image*******/
+.imageprod{
+height: 400px;
+width: 250px;
+border-radius: 20px 0 0 20px;
+}
+/***********The card information container*****/
+.info_card{
+grid-area: area2;
+height: 400px;
+width: 250px;
+border-radius: 0 20px 20px 0;
+background-color: white;
+}
+/****Tittle of the card information****/
+.info_head{
+  text-align:inherit;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin: 0 15px 0 15px;
+}
+/********Introductory information about the body*****/
+.info_body{
+font-size: 26px;
+font-family: 'Fraunces', serif;
+margin: 0 15px 0 15px;
+}
+/*********Main description of product****/
+.info_descrip{
+text-align:inherit;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+margin: 0 15px 0 15px;
+}
+/********Price decription*****/
+.info_price{
+display:inline-flex;
+margin: 0 15px 0 15px;
+}
+.newprice{
+font-size: 26px;
+font-family: 'Fraunces', serif;
+color: hsl(158, 36%, 37%);
+}
+.oldprice{
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+padding-left: 8px;
+text-decoration: line-through;
+}
+/*******Call to action button of the Card*****/
+.button{
+background-color:hsl(158, 36%, 37%);
+border-radius: 8px;
+display:flex;
+align-items:center;
+height:40px;
+margin: 0 15px 0 15px;
+padding-left: 45px;
+}
+.buttontxt{
+padding-left:8px;
+}
